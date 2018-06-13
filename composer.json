@@ -13,7 +13,9 @@
         "jeffersonsimaogoncalves/cakephp-datatables": "@stable",
         "jeffersonsimaogoncalves/cakephp-settings": "@stable",
         "josegonzalez/dotenv": "3.*",
-        "mobiledetect/mobiledetectlib": "2.*"
+        "mobiledetect/mobiledetectlib": "2.*",
+        "mirko-pagliai/cakephp-assets": "1.2.0",
+        "wyrihaximus/minify-html": "1.1.0"
     },
     "require-dev": {
         "cakephp/bake": "^1.1",

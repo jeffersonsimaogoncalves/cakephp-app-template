@@ -12,13 +12,17 @@
  * @since     3.3.0
  * @license   https://opensource.org/licenses/mit-license.php MIT License
  */
+
 namespace App;
 
-use Cake\Core\Configure;
+use Analyzer\Plugin as AnalyzerPlugin;
 use Cake\Error\Middleware\ErrorHandlerMiddleware;
 use Cake\Http\BaseApplication;
 use Cake\Routing\Middleware\AssetMiddleware;
 use Cake\Routing\Middleware\RoutingMiddleware;
+use DataTables\Plugin as DataTablesPlugin;
+use JeffersonSimaoGoncalves\Utils\Plugin as UtilsPlugin;
+use Settings\Plugin as SettingsPlugin;
 
 /**
  * Application setup class.
@@ -33,14 +37,18 @@ class Application extends BaseApplication
      */
     public function bootstrap()
     {
-        // Call parent to load bootstrap from files.
         parent::bootstrap();
+        $this->addPlugin(AnalyzerPlugin::class);
+        $this->addPlugin(DataTablesPlugin::class);
+        $this->addPlugin(SettingsPlugin::class);
+        $this->addPlugin(UtilsPlugin::class);
     }
 
     /**
      * Setup the middleware queue your application will use.
      *
      * @param \Cake\Http\MiddlewareQueue $middlewareQueue The middleware queue to setup.
+     *
      * @return \Cake\Http\MiddlewareQueue The updated middleware queue.
      */
     public function middleware($middlewareQueue)
@@ -49,10 +57,8 @@ class Application extends BaseApplication
             // Catch any exceptions in the lower layers,
             // and make an error page/response
             ->add(ErrorHandlerMiddleware::class)
-
             // Handle plugin/theme assets like CakePHP normally does.
             ->add(AssetMiddleware::class)
-
             // Add routing middleware.
             // Routes collection cache enabled by default, to disable route caching
             // pass null as cacheConfig, example: `new RoutingMiddleware($this)`
