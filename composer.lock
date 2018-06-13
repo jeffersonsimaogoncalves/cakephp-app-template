@@ -4,8 +4,51 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c267b48ce7e8479d046c84d265a0788a",
+    "content-hash": "112567f49146c6cf74b28dd525bb66fe",
     "packages": [
+        {
+            "name": "airmanbzh/php-html-generator",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Airmanbzh/php-html-generator.git",
+                "reference": "5a707722a9f1fa656e6e3dd26e52db6f8369724b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Airmanbzh/php-html-generator/zipball/5a707722a9f1fa656e6e3dd26e52db6f8369724b",
+                "reference": "5a707722a9f1fa656e6e3dd26e52db6f8369724b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "package",
+            "autoload": {
+                "psr-4": {
+                    "HtmlGenerator\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "LE BOULC'H Brice",
+                    "email": "airmanbzh@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP html generator",
+            "homepage": "https://github.com/Airmanbzh/php-html-generator",
+            "keywords": [
+                "generator",
+                "html",
+                "php"
+            ],
+            "time": "2018-04-06T14:52:36+00:00"
+        },
         {
             "name": "aura/intl",
             "version": "3.0.0",
@@ -290,6 +333,193 @@
             "time": "2017-12-24T21:09:29+00:00"
         },
         {
+            "name": "jeffersonsimaogoncalves/cakephp-analyzer",
+            "version": "1.1.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jeffersonsimaogoncalves/cakephp-analyzer.git",
+                "reference": "5d29d4c4aae14072c81ddba412cf670cdcc09613"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jeffersonsimaogoncalves/cakephp-analyzer/zipball/5d29d4c4aae14072c81ddba412cf670cdcc09613",
+                "reference": "5d29d4c4aae14072c81ddba412cf670cdcc09613",
+                "shasum": ""
+            },
+            "require": {
+                "cakephp/cakephp": "^3.6",
+                "php": ">=7.0"
+            },
+            "type": "cakephp-plugin",
+            "autoload": {
+                "psr-4": {
+                    "Analyzer\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jefferson Simão Gonçalves",
+                    "homepage": "https://github.com/jeffersonsimaogoncalves"
+                },
+                {
+                    "name": "CakeManager",
+                    "homepage": "http://cakemanager.org"
+                }
+            ],
+            "description": "Analyzer plugin for CakePHP",
+            "time": "2018-06-08T22:22:37+00:00"
+        },
+        {
+            "name": "jeffersonsimaogoncalves/cakephp-datatables",
+            "version": "v3.2.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jeffersonsimaogoncalves/cakephp-datatables.git",
+                "reference": "8f07020eebb2b7ceb5bc091c6d4c66d77db10f4c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jeffersonsimaogoncalves/cakephp-datatables/zipball/8f07020eebb2b7ceb5bc091c6d4c66d77db10f4c",
+                "reference": "8f07020eebb2b7ceb5bc091c6d4c66d77db10f4c",
+                "shasum": ""
+            },
+            "require": {
+                "cakephp/cakephp": "^3.6",
+                "jeffersonsimaogoncalves/cakephp-utils": "@stable",
+                "php": ">=7.0"
+            },
+            "type": "cakephp-plugin",
+            "autoload": {
+                "psr-4": {
+                    "DataTables\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Frank Heider",
+                    "homepage": "https://github.com/fheider",
+                    "role": "Author"
+                },
+                {
+                    "name": "Johannes Jordan",
+                    "homepage": "https://github.com/ypnos-web",
+                    "role": "Author"
+                },
+                {
+                    "name": "Jefferson Simão Gonçalves",
+                    "homepage": "https://github.com/jeffersonsimaogoncalves",
+                    "role": "Author"
+                }
+            ],
+            "description": "jQuery DataTables for CakePHP 3",
+            "homepage": "https://github.com/jeffersonsimaogoncalves/cakephp-datatables",
+            "keywords": [
+                "cakephp",
+                "datatables"
+            ],
+            "time": "2018-06-08T21:58:18+00:00"
+        },
+        {
+            "name": "jeffersonsimaogoncalves/cakephp-settings",
+            "version": "1.1.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jeffersonsimaogoncalves/cakephp-settings.git",
+                "reference": "d021158041d1c3fafaa21761ef8b2aef3d0783ef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jeffersonsimaogoncalves/cakephp-settings/zipball/d021158041d1c3fafaa21761ef8b2aef3d0783ef",
+                "reference": "d021158041d1c3fafaa21761ef8b2aef3d0783ef",
+                "shasum": ""
+            },
+            "require": {
+                "cakephp/orm": "^3.6",
+                "php": ">=7.0"
+            },
+            "type": "cakephp-plugin",
+            "autoload": {
+                "psr-4": {
+                    "Settings\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jefferson Simão Gonçalves",
+                    "homepage": "https://github.com/jeffersonsimaogoncalves"
+                },
+                {
+                    "name": "CakeManager",
+                    "homepage": "http://cakemanager.org"
+                }
+            ],
+            "description": "Settings plugin for CakePHP",
+            "keywords": [
+                "Settings",
+                "cakephp",
+                "configure",
+                "orm"
+            ],
+            "time": "2018-06-08T22:23:00+00:00"
+        },
+        {
+            "name": "jeffersonsimaogoncalves/cakephp-utils",
+            "version": "v1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jeffersonsimaogoncalves/cakephp-utils.git",
+                "reference": "71d4414fad0f1107c8058776835a54200e7038a3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jeffersonsimaogoncalves/cakephp-utils/zipball/71d4414fad0f1107c8058776835a54200e7038a3",
+                "reference": "71d4414fad0f1107c8058776835a54200e7038a3",
+                "shasum": ""
+            },
+            "require": {
+                "airmanbzh/php-html-generator": "^1.0",
+                "cakephp/utility": "^3.6",
+                "league/fractal": ">=0.13.0",
+                "php": ">=7.0"
+            },
+            "type": "cakephp-plugin",
+            "autoload": {
+                "psr-4": {
+                    "JeffersonSimaoGoncalves\\Utils\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jefferson Simão Gonçalves",
+                    "homepage": "https://github.com/jeffersonsimaogoncalves",
+                    "role": "Author"
+                }
+            ],
+            "description": "CakePHP 3 plugin to provide basic support for building REST API services",
+            "homepage": "https://github.com/jeffersonsimaogoncalves/cakephp-utils",
+            "keywords": [
+                "cakephp",
+                "utils"
+            ],
+            "time": "2018-06-10T23:11:33+00:00"
+        },
+        {
             "name": "josegonzalez/dotenv",
             "version": "3.2.0",
             "source": {
@@ -341,6 +571,70 @@
                 "php"
             ],
             "time": "2017-09-19T15:49:58+00:00"
+        },
+        {
+            "name": "league/fractal",
+            "version": "0.17.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/fractal.git",
+                "reference": "a0b350824f22fc2fdde2500ce9d6851a3f275b0e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/fractal/zipball/a0b350824f22fc2fdde2500ce9d6851a3f275b0e",
+                "reference": "a0b350824f22fc2fdde2500ce9d6851a3f275b0e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "doctrine/orm": "^2.5",
+                "illuminate/contracts": "~5.0",
+                "mockery/mockery": "~0.9",
+                "pagerfanta/pagerfanta": "~1.0.0",
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "~1.5",
+                "zendframework/zend-paginator": "~2.3"
+            },
+            "suggest": {
+                "illuminate/pagination": "The Illuminate Pagination component.",
+                "pagerfanta/pagerfanta": "Pagerfanta Paginator",
+                "zendframework/zend-paginator": "Zend Framework Paginator"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.13-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "League\\Fractal\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Phil Sturgeon",
+                    "email": "me@philsturgeon.uk",
+                    "homepage": "http://philsturgeon.uk/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Handle the output of complex data structures ready for API output.",
+            "homepage": "http://fractal.thephpleague.com/",
+            "keywords": [
+                "api",
+                "json",
+                "league",
+                "rest"
+            ],
+            "time": "2017-06-12T11:04:56+00:00"
         },
         {
             "name": "m1/env",
@@ -2672,12 +2966,15 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "jeffersonsimaogoncalves/cakephp-analyzer": 0,
+        "jeffersonsimaogoncalves/cakephp-datatables": 0,
+        "jeffersonsimaogoncalves/cakephp-settings": 0,
         "psy/psysh": 0
     },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=5.6"
+        "php": ">=7.0"
     },
     "platform-dev": []
 }
